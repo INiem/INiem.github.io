@@ -110,12 +110,22 @@ body {
   
 }
 
+
 #eka{
-    width: 350px;
+width: 100%;
+height: auto;
+
 }
 
+
+
 #toka {
-    width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+#esittelyteksti {
+    width: 90%;
 }
  .valiobj {
     
