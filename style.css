@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+
+
+body {
+     font-family: 'Space Mono', sans-serif ;
+    
+}
+
+#vali {
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+}
+
+
+.valikko {
+
+    display: flex;
+    flex-direction: column;
+    padding-right: 85%;
+    text-align: right;   
+}
+
+
+
+.valiobj {
+
+    width: fit-content;
+    margin-left: auto;
+   
+}
+
+.valiobj:not(#logo):hover{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+.rullaoik {
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: whitesmoke;
+
+}
+
+.varjo {
+    box-shadow: 10px 10px 5px grey;
+
+}
+#eka {
+    filter: grayscale(100%);
+}
+
+#aboutme {
+    margin-top: 100px;
+}
+#esittelyteksti {
+    position: absolute;
+    font-size: relative;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+
+#boxi {
+    
+    margin-right: 30%;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+#tyot {
+    margin-right: 30%;
+    margin-top: 100px;
+}
+#viiva {
+    border: 4px solid black;
+    box-shadow: 2px 2px 5px grey;
+}
+
+@media  (max-width: 500px){
+ 
+ .valiobj {
+     font-size: 70%;
+ }
+  
+    #boxi {
+        font-size: 50%;
+    }
+
+    #esittelyteksti {
+        font-size: 50%;
+    }
+     
+    }
