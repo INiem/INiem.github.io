@@ -88,18 +88,52 @@ body {
     box-shadow: 2px 2px 5px grey;
 }
 
-@media  (max-width: 500px){
- 
+@media only screen and  (max-width: 500px){
+    #vali {
+        z-index: 2;
+    }
+    .rullaoik {
+        margin-left: 0%;
+        z-index: 1;
+    }
+
+.valikko {
+
+    display: flex;
+  
+    width: fit-content;
+    flex-direction: column;
+    padding-right: 75%;
+  
+    text-align: right;   
+  
+  
+}
+
+#eka{
+    width: 350px;
+}
+
+#toka {
+    width: 350px;
+}
  .valiobj {
-     font-size: 70%;
+    
+     background-color: whitesmoke;
  }
   
     #boxi {
-        font-size: 50%;
+       
+        margin-right: 0%;
+      
     }
 
     #esittelyteksti {
-        font-size: 50%;
+     
+        margin-right: 0%;
+    }
+    #tyot {
+        margin-right: 0%;
     }
      
-    }
+}
