@@ -2,6 +2,7 @@
 
 
 
+
     body {
         font-family: 'Space Mono', sans-serif ; 
     }
@@ -21,12 +22,19 @@
         text-align: right;   
     }
 
-    .valiobj {
+    a {
+        width: fit-content;
+        margin-left: auto;
+    }
+    .Work {
+        font-size: 90%;
+    }
+    #logo {
         width: fit-content;
         margin-left: auto;
     }
 
-    .valiobj:not(#logo):hover{
+    a:hover{
         color: white;
         background-color: black;
         font-weight: bolder;
@@ -71,6 +79,10 @@
     #tyot {
         margin-right: 30%;
         margin-top: 100px;
+       
+    }
+    .seli {
+        margin-bottom: 100%;
     }
 
     #viiva {
