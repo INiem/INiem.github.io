@@ -46,7 +46,7 @@
 
     /* Oikealla rullaavan CSS */
     
-        .rullaoik {
+        section {
             margin-left: 20%;
             margin-top: 10%;
             background-color: whitesmoke;
@@ -112,7 +112,7 @@
         z-index: 2;
     }
 
-    .rullaoik {
+    section {
         margin-left: 0%;
         z-index: 1;
     }
