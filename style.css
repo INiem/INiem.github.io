@@ -90,9 +90,15 @@
         margin-bottom: 100%;
     }
 
-    #viiva {
-        border: 4px solid black;
+    .viiva {
+        border: 1px solid black;
         box-shadow: 2px 2px 5px grey;
+    }
+
+    h1 {
+        background-color: black;
+        color: white;
+        height: 200%;
     }
 
 @media screen and (max-width: 481px){
