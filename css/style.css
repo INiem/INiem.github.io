@@ -46,7 +46,7 @@
 
     /* Oikealla rullaavan CSS */
     
-        section {
+        #oikeapuoli {
             margin-left: 20%;
             margin-top: 10%;
             background-color: whitesmoke;
@@ -94,7 +94,12 @@
             box-shadow: 2px 2px 5px grey;
         }
         
-        h1 {
+        #yk {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        #kak {
             background-color: black;
             color: white;
             text-align: center;
@@ -112,7 +117,7 @@
         z-index: 2;
     }
 
-    section {
+    #oikeapuoli {
         margin-left: 0%;
         z-index: 1;
     }
