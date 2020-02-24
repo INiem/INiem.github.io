@@ -1,111 +1,117 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
-
-
-
     body {
         font-family: 'Space Mono', sans-serif ; 
     }
 
-    #vali {
-        width: 100%;
-        position: fixed;
-        top: 40%;
-        display: flex;
-        justify-content: center;
-     }
+    /* Valikon CSS */ 
 
-    .valikko {
-        display: flex;
-        flex-direction: column;
-        padding-right: 85%;
-        text-align: right;   
-    }
+        #vali {
+            width: 100%;
+            position: fixed;
+            top: 40%;
+            display: flex;
+            justify-content: center;
+        }
 
-    a {
-        width: fit-content;
-        margin-left: auto;
-    }
-    .Work {
-        font-size: 90%;
-    }
-    #logo {
-        width: fit-content;
-        margin-left: auto;
-    }
+        .valikko {
+            display: flex;
+            flex-direction: column;
+            padding-right: 85%;
+            text-align: right;   
+        }
 
-    a:hover{
-        color: white;
-        background-color: black;
-        font-weight: bolder;
-        font-size: 110%;
-    }
+        a {
+            width: fit-content;
+            margin-left: auto;
+        }
 
-    .rullaoik {
-        margin-left: 20%;
-        margin-top: 10%;
-        background-color: whitesmoke;
-     }
-
-    .varjo {
-        box-shadow: 10px 10px 5px grey;
-
-    }
-
-    #eka {
-        filter: grayscale(100%);
-        width: 70% ;
-    }
-
-    #toka{
-        width: 70%;
-    }
-
-    #aboutme {
-        margin-top: 100px;
-    }
-
-    #esittelyteksti {
-        position: absolute;
-        margin-right: 30%;
-        margin-left: 5%;
-    }
-
-    #boxi {
+        a:hover{
+            color: white;
+            background-color: black;
+            font-weight: bolder;
+            font-size: 110%;
+        }
         
-        margin-right: 30%;
-        margin-top: 100px;
-        background-color: black;
-        color: white;
-        text-align: center;
-     }
+        #logo {
+            width: fit-content;
+            margin-left: auto;
+        }
 
-    #tyot {
-        margin-right: 30%;
-        margin-top: 100px;
-       
-    }
-    .seli {
-        margin-bottom: 100%;
-    }
+        .Work {
+            font-size: 90%;
+            background-color: white;
+        }
 
-    .viiva {
-        border: 1px solid black;
-        box-shadow: 2px 2px 5px grey;
-    }
 
-    h1 {
-        background-color: black;
-        color: white;
-        text-align: center;
+    /* Oikealla rullaavan CSS */
+    
+        .rullaoik {
+            margin-left: 20%;
+            margin-top: 10%;
+            background-color: whitesmoke;
+        }
 
-    }
+        #eka {
+            filter: grayscale(100%);
+            width: 70% ;
+        }
+
+        .varjo {
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        #aboutme {
+            margin-top: 100px;
+        }
+
+        #esittelyteksti {
+            position: absolute;
+            margin-right: 30%;
+            margin-left: 5%;
+        }
+
+        #toka{
+            width: 70%;
+        }
+
+        #boxi {
+            
+            margin-right: 30%;
+            margin-top: 100px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        #tyot {
+            margin-right: 30%;
+            margin-top: 100px;
+        }
+        
+        .viiva {
+            border: 1px solid black;
+            box-shadow: 2px 2px 5px grey;
+        }
+        
+        h1 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .seli {
+            margin-bottom: 100%;
+        }
+
+        
 
 @media screen and (max-width: 481px){
 
     #vali {
         z-index: 2;
     }
+
     .rullaoik {
         margin-left: 0%;
         z-index: 1;
@@ -119,14 +125,10 @@
         text-align: right;   
     }
 
-
     #eka{
         width: 100%;
         height: auto;
-
     }
-
-
 
     #toka {
         width: 100%;
@@ -138,7 +140,7 @@
     }
 
     .valiobj {
-        background-color: whitesmoke;
+        background-color: white;
     }
     
     #boxi {
